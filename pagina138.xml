@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE teiCorpus SYSTEM "allDTD.dtd">
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<teiCorpus xml:id="pagina138" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edizione digitale imaged-based</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="#UNIPI"> Unipi </orgName> 
+                </publisher>  
+            </publicationStmt>
+            <notesStmt>
+                <note>Nella pagina di diario non sono stati riportati alcuni nomi di persone per intero ma da studi possiamo intuirli a posteriori noi.</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <title type="custom" resp="titolo" xml:id="titolodiario">Raccolta degli scritti autografi di Emanuele Artom redatti tra il 1943 e il 1944 accompagnati dalla lettera originale della madre Amalia riportante l'epigrafe alla mia morte questo plico deve essere consegnato al Centro di documentazione ebraica [..] esso ha un grande valore storico [..].</title>
+                    <author ref="#EA"> Emanuele Artom </author>
+                    <date when="1944"> [1943] - 1944 </date>
+                    <note>I diari, pubblicati integralmente da Guri Schwarz nel 2008, sono composti da due parti distinte. La prima riguarda il periodo che va dal 1 gennaio 1940 al 10 settembre 1943, ed è una fonte di notizie sulla vita culturale torinese di quegli anni e sullo sviluppo della persecuzione razziale. La seconda parte, qui conservata e descritta, che va dal novembre 1943 al 23 febbraio 1944 riguarda invece l'esperienza partigiana di Emanuele Artom. (2) Si conservano nel fascicolo anche i negativi delle copie fotografiche.</note>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement></settlement> 
+                        <repository>Fondo Emanuele Artom - Fondazione CDEC</repository> 
+                        <idno>cc. 91 - b. 1, fasc. 9 </idno>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>Pagina di diario</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Diario</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="px">
+                                        <height>676</height>
+                                        <width>1024</width>
+                                    </dimensions>
+                                </support>
+                                <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+                                discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+                                mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+                                cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                                <condition>Buona, non sono necessari interventi di restauro.</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <!-- NOMI -->
+                <listPerson>
+                    <person xml:id="EA">
+                        <persName>
+                            <forename>Emanuele</forename>
+                            <surname>Artom </surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation>[autore]</occupation>
+                    </person>
+                    <person xml:id="GB">
+                        <persName>
+                            <forename>Guido</forename>
+                            <surname>Bonfiglioli</surname>
+                        </persName>
+                        <sex>M</sex>
+                    </person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="it-IT">Italiano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    
+    <!-- DEFINIZIONE -->
+    <text type="diario"  xml:lang="it">
+        <!-- TRASCRIZIONE -->
+        <body>
+            <div xml:id="part1" next="#part2">
+                <div type="message" xml:id="p138" next="#p139">
+                    <!--corpo della pagina-->
+                    <p>
+                        <pb facs="#page138" xml:id="page-138.1"/>
+                        <lb facs="#pagina1_138"/>azzurri: se tu sei azzurro, non pu<corr>o</corr>i stare con noi.
+                        <lb facs="#pagina2_138"/>Dici di essere apolitico, ma invece sei <choice><sic>baiodogliàno</sic><corr>badogliano</corr></choice>.
+                        <lb facs="#pagina3_138"/>D'altra parte persuaditi che sei <choice><sic>nidietro</sic><corr>indietro</corr></choice> di <name ref="#GB"><abbr>G.</abbr></name> <choice><sic>O</sic><corr>da</corr></choice>
+                        <lb facs="#pagina4_138"/>anni: democrazia e <choice><sic>communismo</sic><corr>comunismo</corr></choice>: questo è l'avve<add>=</add>
+                        <lb facs="#pagina5_138"/>nire del mondo: per le monarchie e i militaristi
+                        <lb facs="#pagina6_138"/>non c'è più posto.<pc>>></pc><del>qua</del> Gli operai, spinti dal biso<add>=</add>
+                        <lb facs="#pagina7_138"/>gno, <choice><sic>Si</sic><corr>si</corr></choice> sono occupati in questi anni di problemi
+                        <lb facs="#pagina8_138"/>politici e hanno maturato. Questi sciocchi gio<add>=</add>
+                        <lb facs="#pagina9_138"/>vani borghesi non hanno mai avuto <del>bisogno</del>lo spirare di <choice><sic>ocuparsi</sic><corr>occuparsi</corr></choice> di nulla, ma, come <corr>s</corr>tudenti,
+                        <lb facs="#pagina10_138"/>come classe colta, sono anzi stati aperti alla
+                        <lb facs="#pagina11_138"/><del>indifferenza fas</del> propaganda fascista e <gap/>
+                        <lb facs="#pagina12_138"/><add><gap/></add>e il vuoto di questa <choice><sic>riempirè</sic><corr>riempire</corr></choice> tutto il loro vuoto
+                        <lb facs="#pagina13_138"/><add><choice><sic>modellettualmente</sic><corr>intellettualmente</corr></choice> pigri e, moralmente scettici:</add>
+                        <lb facs="#pagina14_138"/>-Noi- diceva uno <choice><sic>de<del>i</del></sic><corr>di</corr></choice> <choice><sic>ierì</sic><corr>ieri</corr></choice> - siamo degli
+                        <lb facs="#pagina15_138"/>sportivi- cioè, <choice><sic>mi</sic><corr>in</corr></choice> altre parole, preferiamo stancare
+                        <lb facs="#pagina16_138"/>le gambe che la testa. Non so qual filosofo ha 
+                        <lb facs="#pagina17_138"/>osservato che nessuna fatica è grave comequella di pensare e questi ragazzi, senza essere
+                        <pb facs="#page138.2" xml:id="page-138.2"/>
+                        <lb facs="#pagina18_138"/>filosofi, conoscono perfettamente il <choice><sic>saggiò</sic><corr>saggio</corr></choice> afo<add>=</add>
+                        <pb facs="#page138.3" xml:id="page-138.3"/>
+                        <lb facs="#pagina19_138"/>risma. Siamo di fronte a quello che in termini
+                        <lb facs="#pagina20_138"/><choice><sic>marscisti</sic><corr>marxisti</corr></choice> si chiama fine di una classe economica.
+                        <lb facs="#pagina21_138"/><add type="circle">Servitù ai propri ordini;</add> titoli di studi <gap/>
+                        <lb facs="#pagina22_138"/>ottenuti senza merito, divertimenti e donne,
+                        <lb facs="#pagina23_138"/>guerra intesa sportivamente <add><unclear>perulia -</unclear> sono <choice><sic>indis<gap/>iplinati</sic><corr>indisciplinati</corr></choice></add> sono i tratti ca<add>=</add>
+                        <lb facs="#pagina24_138"/>ratteristici di questi giovani, che, senza accor<add>=</add>
+                        <lb facs="#pagina25_138"/>gesene, corrono verso la propria rovina. Se lo
+                        <lb facs="#pagina26_138"/>capissero, ma hanno il cervello atrofizzato, si
+                        <lb facs="#pagina27_138"/>getterebbero nei partiti di destra o nel <abbr>P.d.A</abbr>
+                        <lb facs="#pagina28_138"/>per salvarsi i propri capitali. Invece, quando noi
+                        <lb facs="#pagina29_138"/>parliamo loro, ridono allegramente: di chi?
+                        <lb facs="#pagina30_138"/>di se stessi e di noi: non si capisce bene.
+                        <lb facs="#pagina31_138"/><gap/><del>Con la decadenza</del>La religione è la forma 
+                        <lb facs="#pagina32_138"/>più facile ed elementare di vita dello spirito:
+                        <lb facs="#pagina33_138"/>con la <del>de<gap/>o</del> fine della religione nella società
+                        <lb facs="#pagina34_138"/>borghese, <del>questi g</del> a molti non è più rimasto
+                        <lb facs="#pagina35_138"/>nulla: si è tolto il passato senza sostituirlo con
+                        <lb facs="#pagina36_138"/>altro.
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+    <facsimile>
+        <surface xml:id="page138" start="#page-138" points=" 18,18 18,1009 658,1005 662,25 ">
+            <graphic url="138.jpeg" width="676px" height="1024px"/>
+            <zone xml:id="page138.1" points=" 23,21 25,505 660,488 659,27 ">
+                <note>First part of the page 138</note>
+            </zone>
+            <zone xml:id="page138.2" points=" 24,502 660,484 660,518 25,527 ">
+                <note>Text in diary fold of page 138</note>
+            </zone>
+            <zone xml:id="page138.3" points=" 26,526 16,1006 661,1000 661,518 ">
+                <note>Second part of the page 138</note>
+            </zone>
+            <zone xml:id="pagina1_138" points = ' 22,17 22,45 648,49 646,21 ' />
+            <zone xml:id="pagina2_138" points = ' 22,43 22,65 649,78 647,48 ' />
+            <zone xml:id="pagina3_138" points = ' 21,62 23,91 634,94 636,76 ' />
+            <zone xml:id="pagina4_138" points = ' 23,89 24,117 637,122 639,96 ' />
+            <zone xml:id="pagina5_138" points = ' 25,116 26,139 637,140 638,120 ' />
+            <zone xml:id="pagina6_138" points = ' 25,138 25,164 638,163 636,137 ' />
+            <zone xml:id="pagina7_138" points = ' 26,163 23,206 649,188 658,160 ' />
+            <zone xml:id="pagina8_138" points = ' 24,199 23,227 645,214 648,187 ' />
+            <zone xml:id="pagina9_138" points = ' 24,223 23,245 653,234 654,211 ' />
+            <zone xml:id="pagina10_138" points = ' 22,244 24,282 650,269 652,232 ' />
+            <zone xml:id="pagina11_138" points = ' 25,275 26,302 639,293 642,265 ' />
+            <zone xml:id="pagina12_138" points = ' 26,300 27,332 648,319 649,289 ' />
+            <zone xml:id="pagina13_138" points = ' 29,327 29,352 661,345 662,319 ' />
+            <zone xml:id="pagina14_138" points = ' 33,347 35,384 320,371 569,350 571,336 ' />
+            <zone xml:id="pagina15_138" points = ' 28,363 25,391 625,371 622,346 ' />
+            <zone xml:id="pagina16_138" points = ' 25,390 24,428 673,401 674,362 ' />
+            <zone xml:id="pagina17_138" points = ' 25,425 21,460 650,434 644,401 ' />
+            <zone xml:id="pagina18_138" points = ' 23,459 26,482 623,454 618,434 ' />
+            <zone xml:id="pagina19_138" points = ' 25,481 23,512 657,489 654,452 ' />
+            <zone xml:id="pagina20_138" points = ' 26,505 27,531 659,521 659,484 ' />
+            <zone xml:id="pagina21_138" points = ' 29,528 31,555 650,542 651,518 ' />
+            <zone xml:id="pagina22_138" points = ' 31,555 33,576 666,577 662,541 ' />
+            <zone xml:id="pagina23_138" points = ' 48,639 49,673 628,659 628,632 ' />
+            <zone xml:id="pagina24_138" points = ' 22,665 22,691 641,681 638,655 ' />
+            <zone xml:id="pagina25_138" points = ' 38,633 44,667 628,650 629,632 ' />
+            <zone xml:id="pagina26_138" points = ' 27,653 649,641 647,685 17,688 ' />
+            <zone xml:id="pagina27_138" points = ' 24,690 21,724 611,701 613,673 ' />
+            <zone xml:id="pagina28_138" points = ' 22,722 18,747 639,733 638,705 ' />
+            <zone xml:id="pagina29_138" points = ' 18,748 19,781 656,765 656,730 ' />
+            <zone xml:id="pagina30_138" points = ' 20,781 26,811 652,789 655,762 ' />
+            <zone xml:id="pagina31_138" points = ' 25,811 25,839 641,828 642,786 ' />
+            <zone xml:id="pagina32_138" points = ' 27,830 28,855 613,846 608,819 ' />
+            <zone xml:id="pagina33_138" points = ' 28,852 24,887 647,875 646,846 ' />
+            <zone xml:id="pagina34_138" points = ' 25,885 25,914 639,898 637,870 ' />
+            <zone xml:id="pagina35_138" points = ' 26,913 26,936 647,926 647,898 ' />
+            <zone xml:id="pagina36_138" points = ' 25,936 27,968 653,952 655,923 ' />
+            <zone xml:id="pagina37_138" points = ' 25,968 25,994 645,974 642,949 ' />
+            <zone xml:id="pagina38_138" points = ' 26,990 30,1014 124,1014 115,989 ' />
+        </surface>
+    </facsimile>
+</teiCorpus>

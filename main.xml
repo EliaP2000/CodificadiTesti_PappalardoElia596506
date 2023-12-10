@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<!DOCTYPE teiCorpus SYSTEM "allDTD.dtd">
+
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:id="main">
+        <fileDesc>
+            <titleStmt>
+                <title> Progetto di Codifica di Testi </title>
+                
+                <respStmt>
+                    <resp>Trascritto da</resp>
+                    <name xml:id="EP">Elia Pappalardo </name>
+                </respStmt>
+                
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt xml:id="ente">
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="università" xml:id="PI">Università di Pisa</name>
+                </respStmt>
+                
+            </titleStmt>
+            
+            <editionStmt>
+                <edition> Studente di Codifica di Testi, corso di laurea in Informatica Umanistica, Università di Pisa
+                    <!-- COMPILAZIONE -->
+                    <date>2023</date>
+                </edition>
+                
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>Codificato da</resp>
+                    <name resp="EP">Elia Pappalardo</name>
+                </respStmt>
+                
+            </editionStmt>
+            
+            <publicationStmt> 
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Disponibile solo su licenza</p>
+                </availability>
+                <date when="2023">2023</date>
+                <address>
+                    <addrLine>Progetto d'esame di Codifica di Testi - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            
+            <sourceDesc> 
+                <bibl>
+                    <interp> Tre pagine di diario del partigiano Emanuele Artom. </interp>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country> Italia </country>
+                         <settlement></settlement>  
+                        <repository>Fondo Emanuele Artom - Fondazione CDEC</repository>
+                        <idno>cc. 91 - b. 1, fasc. 9 </idno>
+                    </msIdentifier>
+                </msDesc>              
+            </sourceDesc>
+            
+        </fileDesc>    
+    </teiHeader>
+    
+    
+    
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="pagina138.xml"> 
+        <xi:fallback/> 
+    </xi:include>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="pagina139.xml">
+        <xi:fallback/>
+    </xi:include>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="pagina140.xml">
+        <xi:fallback/>
+    </xi:include>
+    
+</teiCorpus>

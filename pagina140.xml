@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE teiCorpus SYSTEM "allDTD.dtd">
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<teiCorpus xml:id="pagina140" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edizione digitale imaged-based</title>
+            </titleStmt>
+            <publicationStmt> 
+                <publisher>
+                    <orgName ref="#UNIPI"> Unipi </orgName> 
+                </publisher>  
+            </publicationStmt>
+            <notesStmt>
+                <note>Nella pagina di diario non sono stati riportati alcuni nomi di persone per intero ma da studi possiamo intuirli a posteriori noi.</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <title type="custom" resp="titolodiario">Raccolta degli scritti autografi di Emanuele Artom redatti tra il 1943 e il 1944 accompagnati dalla lettera originale della madre Amalia riportante l'epigrafe alla mia morte questo plico deve essere consegnato al Centro di documentazione ebraica [..] esso ha un grande valore storico [..].</title>
+                    <author ref="#EA"> Emanuele Artom </author>
+                    <date when="1944"> [1943] - 1944 </date>
+                    <note>I diari, pubblicati integralmente da Guri Schwarz nel 2008, sono composti da due parti distinte. La prima riguarda il periodo che va dal 1 gennaio 1940 al 10 settembre 1943, ed è una fonte di notizie sulla vita culturale torinese di quegli anni e sullo sviluppo della persecuzione razziale. La seconda parte, qui conservata e descritta, che va dal novembre 1943 al 23 febbraio 1944 riguarda invece l'esperienza partigiana di Emanuele Artom. (2) Si conservano nel fascicolo anche i negativi delle copie fotografiche.</note>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement></settlement> 
+                        <repository>Fondo Emanuele Artom - Fondazione CDEC</repository> 
+                        <idno>cc. 91 - b. 1, fasc. 9 </idno>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>Pagina di diario</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Diario</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="px">
+                                        <height>682</height>
+                                        <width>1024</width>
+                                    </dimensions>
+                                </support>
+                                <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+                                discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+                                mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+                                cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                                <condition>Buona, non sono necessari interventi di restauro.</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <!-- NOMI -->
+                <listPerson>
+                    <person resp="EA">
+                        <persName>
+                            <forename>Emanuele</forename>
+                            <surname>Artom </surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation>[autore]</occupation>
+                    </person>
+                    <person resp="AL">
+                        <persName>
+                            <forename>Annamaria</forename>
+                            <surname>Levi</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                    <person resp="GB">
+                        <persName>
+                            <forename>Guido</forename>
+                            <surname>Bonfiglioli</surname>
+                        </persName>
+                        <sex>M</sex>
+                    </person>
+                    <person xml:id="RM">
+                        <persName>
+                            <forename>Roberto</forename>
+                            <surname>Malan</surname>
+                        </persName>
+                        <sex>M</sex>
+                    </person>
+                    <person xml:id="VM">
+                        <persName>
+                            <forename>Valentino</forename>
+                            <surname>Martina</surname>
+                        </persName>
+                        <sex>M</sex>
+                    </person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="it-IT">Italiano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    
+    <!-- DEFINIZIONE -->
+    <text type="diario"  xml:lang="it">
+        <!-- TRASCRIZIONE -->
+        <body>
+            <div prev="#part2" xml:id="part3" >
+                <div type="message" prev="#p139" xml:id="p140">
+                    <!--corpo della pagina-->
+                    <p>
+                        <pb facs="#page140" xml:id="page-140.1"/>
+                        <lb facs="#pagina1_140"/>balterno. <add>Ne parlerò con <name ref="RM">Roberto</name></add> ai <unclear>venni</unclear> alle basi di <choice><sic>Romà</sic><corr>Roma</corr></choice>.
+                        <lb facs="#pagina2_140"/>Una giornata slendida. La neve si scio<add>=</add>
+                        <lb facs="#pagina3_140"/>glieva e gocciolava da tutte le parti. Non so 
+                        <lb facs="#pagina4_140"/>come persi la strada, <del>e dovetti</del> feci tardi e
+                        <lb facs="#pagina5_140"/>dovetti saltare il pranzo: spesso ora mi accade
+                        <lb facs="#pagina6_140"/>di saltare un pasto e di mangiare per due
+                        <lb facs="#pagina7_140"/>quello dopo. Strano che durante la strada
+                        <lb facs="#pagina8_140"/>pensai: potrebbe darsi che la base fosse occu<add>=</add>
+                        <lb facs="#pagina9_140"/>pata dai tedeschi e nella solitudine mi sugge<add>=</add>
+                        <lb facs="#pagina10_140"/>stionai tanto <choice><sic>ni</sic><corr>in</corr></choice> questa idea, trovai tanti <gap/> indizi
+                        <lb facs="#pagina11_140"/>atti a confermarla, che <del>ebbi paura a</del>, giunto vi<add>=</add>
+                        <lb facs="#pagina12_140"/>cino alla soglia; ebbi paura ad entrare. <unclear>Commenne<add>=</add>
+                        <lb facs="#pagina13_140"/><space></space>rai tarà</unclear> ai soldati , distribuii giornali, spiegai 
+                        <lb facs="#pagina14_140"/>qualche cosa di politica. Regolai anche delle 
+                        <lb facs="#pagina15_140"/>sigarette. Uno me ne chiese, <choice><sic>gliè ne</sic><corr>gliene</corr></choice> diedi una e 
+                        <lb facs="#pagina16_140"/>poi mi fu detto che <choice><sic>era</sic><corr>ero</corr></choice> stato stato sospeso dalla distri<add>=</add>
+                        <lb facs="#pagina17_140"/>buzione per castigo essendo andato a dormire
+                        <lb facs="#pagina18_140"/>quando doveva montare di guardia. Mi 
+                        <pb facs="#page3.2" xml:id="page-3.2"/>
+                        <lb facs="#pagina19_140"/>spiacque, ma dovetti tagliargliela. Tutta la sera
+                        <pb facs="#page3.3" xml:id="page-3.3"/>
+                        <lb facs="#pagina20_140"/>i ragazzi cantavano. Oggi scenderò alla base di 
+                        <lb facs="#pagina21_140"/><name ref="VM">Martina</name>, per fare conoscenza con la nuova par<add>=</add>
+                        <lb facs="#pagina22_140"/>rocchia e per combinare la ricerca dei 90 mo<add>=</add>
+                        <lb facs="#pagina23_140"/>schetti, se ci sono. Domani a Torre. <gap/> Adrò 
+                        <lb facs="#pagina24_140"/>alla posta e sentirò le novità. Probabilmente 
+                        <lb facs="#pagina25_140"/>passerò la sera con <name ref="AL">Mariella</name>. <del>Se penso</del> Non so 
+                        <lb facs="#pagina26_140"/>perché <name ref="GB">G</name> non sia ancora arrivato. <del>Una volta</del>
+                        <lb facs="#pagina27_140"/>Si pensava che i Fascisti avrebbero reagito 
+                        <lb facs="#pagina28_140"/>all'<gap/> dell'altro ieri: nulla invece, per ora.
+                        <lb facs="#pagina29_140"/>Pare che i <abbr>Ted</abbr> stiano abbandonando 
+                        <lb facs="#pagina30_140"/>Pinerolo: che partano tradotte e carri di
+                        <lb facs="#pagina31_140"/>materiale di guerra. Ci avviciniamo alla 
+                        <lb facs="#pagina32_140"/>fine e ieri <choice><sic>ni</sic><corr>in</corr></choice> piena buona fede potevo incorag<add>=</add>
+                        <lb facs="#pagina33_140"/>ggiare i soldati preannunziando un prossimo viaggio
+                        <lb facs="#pagina34_140"/>a Torino, un pernottamento al Principe di Piemonte
+                     </p>
+                        <div>
+                            <pb facs="#page140.4" xml:id="page-140.4"/>
+                            <p xml:id="left">
+                                <lb facs="#pagina34.1_140"/><name>Bula. K S. Jan</name> <gap/>
+                            </p>
+                            <p xml:id="right">
+                                <add><lb facs="#pagina35_140"/>e il pullulare dei partigiani
+                                    <lb facs="#pagina36_140"/>dell'ultima ora.</add>
+                             </p>
+                     </div>
+                </div>
+            </div>
+        </body>
+    </text>
+    <facsimile>
+        <surface xml:id="page140" start="#page-140" points=" 19,17 20,1006 663,1010 668,15 ">
+            <graphic url="140.jpeg" width="682px" height="1024px"/>
+            <zone xml:id="page140.1" points=" 19,15 33,505 664,504 667,19 ">
+                <note>First part of the page 140</note>
+            </zone>
+            <zone xml:id="page140.2" points=" 37,535 661,530 664,501 33,503 ">
+                <note>Text in diary fold of page 140</note>
+            </zone>
+            <zone xml:id="page140.3" points=" 37,533 24,965 668,961 670,528 ">
+                <note>Second part of the page 140</note>
+            </zone>
+            <zone xml:id="page140.4" points=" 24,962 23,1008 660,1009 668,960 ">
+                <note>Bottom part of the page 140</note>
+            </zone>
+            <zone xml:id="pagina1_140" points = ' 40,14 38,51 609,54 610,14 ' />
+            <zone xml:id="pagina2_140" points = ' 40,48 40,80 642,91 646,54 ' />
+            <zone xml:id="pagina3_140" points = ' 40,79 33,118 640,116 645,89 ' />
+            <zone xml:id="pagina4_140" points = ' 42,118 42,140 648,150 651,115 ' />
+            <zone xml:id="pagina5_140" points = ' 42,140 41,173 657,193 660,151 ' />
+            <zone xml:id="pagina6_140" points = ' 41,173 40,201 620,209 620,179 ' />
+            <zone xml:id="pagina7_140" points = ' 38,202 37,237 651,246 651,211 ' />
+            <zone xml:id="pagina8_140" points = ' 36,240 36,271 659,280 657,245 ' />
+            <zone xml:id="pagina9_140" points = ' 39,263 34,303 655,299 656,275 ' />
+            <zone xml:id="pagina10_140" points = ' 34,299 33,329 654,328 653,297 ' />
+            <zone xml:id="pagina11_140" points = ' 37,320 37,342 652,350 654,326 ' />
+            <zone xml:id="pagina12_140" points = ' 36,340 36,367 666,376 666,350 ' />
+            <zone xml:id="pagina13_140" points = ' 36,362 37,386 624,385 623,366 ' />
+            <zone xml:id="pagina14_140" points = ' 36,387 37,415 635,412 633,385 ' />
+            <zone xml:id="pagina15_140" points = ' 40,407 41,437 638,436 642,411 ' />
+            <zone xml:id="pagina16_140" points = ' 41,438 39,463 638,463 642,434 ' />
+            <zone xml:id="pagina17_140" points = ' 37,455 33,486 612,481 611,454 ' />
+            <zone xml:id="pagina18_140" points = ' 89,477 78,507 646,508 650,482 ' />
+            <zone xml:id="pagina19_140" points = ' 69,514 69,542 641,534 644,506 ' />
+            <zone xml:id="pagina20_140" points = ' 40,534 41,570 663,562 664,527 ' />
+            <zone xml:id="pagina21_140" points = ' 41,564 37,591 668,594 665,560 ' />
+            <zone xml:id="pagina22_140" points = ' 32,587 31,621 648,617 649,592 ' />
+            <zone xml:id="pagina23_140" points = ' 33,618 34,647 660,643 663,612 ' />
+            <zone xml:id="pagina24_140" points = ' 31,649 34,678 624,673 630,643 ' />
+            <zone xml:id="pagina25_140" points = ' 33,678 32,710 625,707 622,672 ' />
+            <zone xml:id="pagina26_140" points = ' 34,707 31,737 639,733 639,704 ' />
+            <zone xml:id="pagina27_140" points = ' 31,736 30,765 634,758 635,731 ' />
+            <zone xml:id="pagina28_140" points = ' 28,764 29,796 666,807 668,759 ' />
+            <zone xml:id="pagina29_140" points = ' 31,791 30,826 594,823 596,796 ' />
+            <zone xml:id="pagina30_140" points = ' 31,826 30,862 602,858 608,826 ' />
+            <zone xml:id="pagina31_140" points = ' 30,862 31,889 593,886 590,857 ' />
+            <zone xml:id="pagina32_140" points = ' 18,888 19,927 639,919 641,888 ' />
+            <zone xml:id="pagina33_140" points = ' 21,920 21,953 654,949 655,916 ' />
+            <zone xml:id="pagina34_140" points = ' 28,943 28,965 634,967 634,945 ' />
+            <zone xml:id="pagina34.1_140" points = ' 40,967 38,995 308,997 309,962 ' />
+            <zone xml:id="pagina35_140" points = ' 313,965 312,988 649,990 652,965 ' />
+            <zone xml:id="pagina36_140" points = ' 316,987 318,1008 549,1010 548,986 ' />
+        </surface>
+    </facsimile>
+</teiCorpus>
